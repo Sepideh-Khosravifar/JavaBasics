@@ -11,6 +11,9 @@ public class World {
 		human1.gender = 'F';
 		human1.age=33;
 		
+		System.out.println(human1.name);
+		
+		
 		//human1.hands=2; beacause hands was not defined in the Human class
 		human1.sleep();
 		human1.run();

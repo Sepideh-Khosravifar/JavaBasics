@@ -24,8 +24,6 @@ public class Dogs {
 		
 		Dogs Husky= new Dogs();
 		
-		//accessing the property name on object besh and setting its value
-		
 		Husky.name="asal";
 		Husky.breed="husky";
 		Husky.age=5;
@@ -37,6 +35,7 @@ public class Dogs {
 		System.out.println("***************");
 		
 		Dogs Bulldog=new Dogs();
+		
 		Bulldog.name="milo";
 		Bulldog.breed="bulldog";
 		Bulldog.age=7;
@@ -49,6 +48,7 @@ public class Dogs {
 System.out.println("***************");
 		
 		Dogs Labrador=new Dogs();
+		
 		Labrador.name="sweetie";
 		Labrador.breed="Labrador";
 		Labrador.age=12;

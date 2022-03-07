@@ -26,18 +26,18 @@ public class TwoArray {
 		
 		for (int row=0; row< numbers.length; row++) {
 		
-			for(int cols=0; cols<numbers[row].length; cols ++) {
+			for(int col=0; col<numbers[row].length; col ++) {
 				
-				System.out.print(numbers[row][cols]);
+				System.out.print(numbers[row][col]);
 			}
 			
 			System.out.println();
 				
-		} System.out.println("get all elements from 2D array using each loop");
+		} System.out.println("get all elements from 2D array using for loop");
 		
 		for (int[] nums:numbers) {
 			for (int num:nums) {
-				System.out.print(num + "");
+				System.out.print(num + " ");
 			}
 		
 				System.out.println();
@@ -48,7 +48,7 @@ public class TwoArray {
 		
 		Arrays.sort(arr);
 		
-		System.out.println(arr[arr.length - 1]);
+		System.out.println(arr[arr.length - 1]); //prints the largest number in the array
 		
 		
 		
