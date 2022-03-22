@@ -1,9 +1,9 @@
 package com.syntax.class20;
 
-public class Principle extends Human {
+public class Principle extends Human{
 
-	boolean specialParkingSlot;
-	
-	}
+    boolean specialParkingSlot;
+
+}
 
 

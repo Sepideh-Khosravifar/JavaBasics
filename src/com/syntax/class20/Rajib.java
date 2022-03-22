@@ -1,5 +1,5 @@
 package com.syntax.class20;
 
-public class Rajib extends Hadi{
-
+public class RaqibFather extends HadiGrandpa {
+	
 }
